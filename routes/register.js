@@ -10,7 +10,7 @@ const registerSchema = z.object({
  const birthDateObj = new Date(date);
  return !isNaN(birthDateObj.getTime()); // Check if it's a valid date
  }, { message: "Invalid birthdate" }),
- role: z.enum(["reserver", "admin"], { message: "Invalid role" }),
+ role: z.enum(["reserver", "administrator"], { message: "Invalid role" }),
 });
 // Helper function to check if a username (email) already exists
 async function isUniqueUsername(email) {
