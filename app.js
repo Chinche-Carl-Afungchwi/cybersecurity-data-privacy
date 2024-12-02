@@ -5,6 +5,27 @@ import { loginUser } from "./routes/login.js";
 import { serveStatic } from "https://deno.land/x/hono/middleware.ts";
 const app = new Hono();
 
+app.use('*', (c, next) => {
+    c.header('Content-Type', 'text/html');
+
+    c.header(
+        'Content-Security-Policy',
+        "default-src 'self'; " +
+        "script-src 'self'; " +
+        "style-src 'self'; " +
+        "img-src 'self'; " +
+        "frame-ancestors 'none'; " +
+        "form-action 'self';"
+      );
+      
+      // Set X-Frame-Options header to prevent Clickjacking
+      c.header('X-Frame-Options', 'DENY'); // Completely deny embedding
+
+      c.header('X-Content-Type-Options', 'nosniff');
+
+      return next();
+});
+
 app.use('/static/*', serveStatic({ root: '.'}));
 // app.use('/static/*', serveStatic({ root: './static'}));
 
