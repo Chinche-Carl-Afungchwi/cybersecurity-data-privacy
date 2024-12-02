@@ -38,7 +38,9 @@ export async function registerUser(c) {
  [username, hashedPassword, role, birthdate]
  );
  // Success response
- return c.text('User registered successfully!');
+ // return c.text('User registered successfully!');
+ return c.redirect('/');
+
  } catch (error) {
  if (error instanceof z.ZodError) {
  // Handle validation errors from Zod
