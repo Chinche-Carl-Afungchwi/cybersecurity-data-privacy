@@ -13,3 +13,5 @@
 | 30.11.2024 | 6 | Understanding zap error messages with chatgpt | Completed|
 | 01.12.2024 | 6 | Attempted Booking system project Phase 2 | Unsuccessful |
 | 02.12.2024 | 8 | Attempted Booking system project Phase 2 | Task completed |
+| 07.12.2024 | 8 | Watching lecture videos, studying Bookin system project Phase 3 Code | Task Completed |
+| 08.12.2021 | 10 | Attempted Booking system project Phase 3 | Task completed |
