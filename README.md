@@ -16,5 +16,6 @@
 | 07.12.2024 | 8 | Watching lecture videos, studying Bookin system project Phase 3 Code | Task Completed |
 | 08.12.2024 | 10 | Attempted Booking system project Phase 3 | Task completed |
 | 13.12.2024 | 4 | Watching lecture videos and studying | Task Completed |
-| 14.12.2024 | 10 | Taking the Netacad course, doing all exercises | Task Completed |
+| 14.12.2024 | 10 | Taking the Netacad course, doing all exercises  | Task Completed |
 | 15.12.2024 | 8 | Doing the booking system phase 4 task | Task Completed |
+| 15.12.2024 | 4 | Completing Portswigger labs & Making my final report | Task Completed |
