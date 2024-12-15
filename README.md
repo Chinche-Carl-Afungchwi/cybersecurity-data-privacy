@@ -14,4 +14,7 @@
 | 01.12.2024 | 6 | Attempted Booking system project Phase 2 | Unsuccessful |
 | 02.12.2024 | 8 | Attempted Booking system project Phase 2 | Task completed |
 | 07.12.2024 | 8 | Watching lecture videos, studying Bookin system project Phase 3 Code | Task Completed |
-| 08.12.2021 | 10 | Attempted Booking system project Phase 3 | Task completed |
+| 08.12.2024 | 10 | Attempted Booking system project Phase 3 | Task completed |
+| 13.12.2024 | 4 | Watching lecture videos and studying | Task Completed |
+| 14.12.2024 | 10 | Taking the Netacad course, doing all exercises | Task Completed |
+| 15.12.2024 | 8 | Doing the booking system phase 4 task | Task Completed |
